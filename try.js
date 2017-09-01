@@ -11,4 +11,4 @@ request_data = JSON.parse(fetch.responseText);
 fetch.open("post",url,false);
 fetch.withCredentials = true;
 fetch.setRequestHeader("Content-Type", "application/json");
-fetch.send("{"msg":"OpenSession","device":{"kind":"web","identifier":"AAAAAAAAAAAAAAAAAAA"},"auth":{"provider":"signin"},"version":{"platform":"web","app":"iris/dogfood","appVersion":1579},"batch":[],"appId":"messenger","locale":"en-IN"}");
+fetch.send('{"msg":"OpenSession","device":{"kind":"web","identifier":"AAAAAAAAAAAAAAAAAAA"},"auth":{"provider":"signin"},"version":{"platform":"web","app":"iris/dogfood","appVersion":1579},"batch":[],"appId":"messenger","locale":"en-IN"}');
