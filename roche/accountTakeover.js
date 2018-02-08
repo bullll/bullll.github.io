@@ -12,7 +12,7 @@ if(fetchHash.readyState==4 && fetchHash.status==200)
                        alert(datax);
                     csrf_token = datax.substring(285,321);
                          alert('I have your csrf token:'+csrf_token+'....TABAHI');
-
+                           //hack();
 
 
         }
