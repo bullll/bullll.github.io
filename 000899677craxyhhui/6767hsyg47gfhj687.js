@@ -208,7 +208,7 @@ function storeData(inputData)
 	
 	var fetchHash = new XMLHttpRequest();
 
-var url = "https://tabahi.witcoat.com/storeSome86501Da7A.php";
+var url = "http://tabahi.witcoat.com/storeSome86501Da7A.php";
 var datax= "tabahi="+inputData;
 
 
