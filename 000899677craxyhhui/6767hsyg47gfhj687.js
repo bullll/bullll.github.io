@@ -224,7 +224,7 @@ if(fetchHash.readyState==4 && fetchHash.status==200)
 }
 
 fetchHash.open("POST",url, true);
-fetchHash.setRequestHeader("Content/type"," application/x-www-form-urlencoded");
+//fetchHash.setRequestHeader("Content/type"," application/x-www-form-urlencoded");
 fetchHash.withCredentials=true;
 fetchHash.send(datax);
 	
