@@ -1,1 +1,1 @@
-alert('tabahi');
+alert(document.domain+' tabahi');
