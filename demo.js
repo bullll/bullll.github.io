@@ -1,1 +1,1 @@
-alert('hacked---tabahi---x!')
+alert('hacked---!')
