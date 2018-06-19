@@ -1,1 +1,1 @@
-alert('bull');
+alert('tabahi..hacked'+document.domain);
